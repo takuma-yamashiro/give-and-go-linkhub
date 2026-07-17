@@ -41,7 +41,6 @@
     max-width:440px;
     position:relative;
   }
-  /* --- court arc decoration --- */
   .arc-wrap{
     position:absolute;
     top:-28px;
@@ -63,7 +62,6 @@
     animation:draw-arc 1.4s 0.15s cubic-bezier(.3,.8,.4,1) forwards;
   }
   @keyframes draw-arc{ to{ stroke-dashoffset:0; } }
-  /* --- header --- */
   header{
     position:relative;
     z-index:1;
@@ -145,7 +143,6 @@
     color:rgba(245,239,225,0.8);
     margin:0;
   }
-  /* --- links --- */
   main{
     position:relative;
     z-index:1;
@@ -222,7 +219,6 @@
     transition:transform 160ms ease;
   }
   a.link-card:hover .arrow{ transform:translateX(3px); color:var(--paint-soft); }
-  /* --- trial-lesson booking CTA --- */
   a.cta-primary{
     display:flex;
     align-items:center;
@@ -257,7 +253,6 @@
     margin:0;
   }
   .cta-arrow{ font-size:22px; flex:0 0 auto; }
-  /* --- school schedule embed --- */
   .schedule-block{
     background:var(--ink);
     border:1px solid var(--line);
@@ -282,7 +277,6 @@
     color:rgba(245,239,225,0.5);
     margin:10px 2px 0;
   }
-  /* --- divider --- */
   .divider{
     display:flex;
     align-items:center;
@@ -320,7 +314,6 @@
   a.link-card.small .verb .jp{ font-size:12px; }
   a.link-card.small .link-title{ font-size:13px; }
   a.link-card.small .link-desc{ font-size:11px; }
-  /* --- footer / paint lane --- */
   .lane{
     margin-top:30px;
     height:10px;
@@ -368,15 +361,15 @@
       <p class="byline">coach 山城拓馬 ｜ 育成バスケットボールスクール</p>
     </header>
     <main>
-      <a class="cta-primary" href="https://calendar.google.com/calendar/appointments/schedules/PLACEHOLDER" target="_blank" rel="noopener">
+      <a class="cta-primary" href="https://lin.ee/mbFidL2" target="_blank" rel="noopener">
         <div>
-          <p class="cta-label">LESSON ・ 予約受付中</p>
-          <p class="cta-title">レッスンを予約する</p>
+          <p class="cta-label">LESSON ・ LINEで受付中</p>
+          <p class="cta-title">LINEで予約相談する</p>
         </div>
         <div class="cta-arrow">→</div>
       </a>
       <div class="schedule-block">
-        <p class="link-title">スクール予定</p>
+        <p class="link-title">スクール・レッスン可能予定</p>
         <p class="link-desc">練習日・イベントのカレンダー</p>
         <div class="cal-embed">
           <iframe
